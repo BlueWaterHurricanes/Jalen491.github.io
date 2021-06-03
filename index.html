@@ -52,20 +52,25 @@ margin: 0 auto;
   display:block;
  text-align: center;
 }
-	a: hover{
-	background:yellow;
-		color:red;
-	}
-	a: active {
-	background:yellow;
-		color:red;
-	}
-	a: focus {
-	background:yellow;
-		color:red;
-	}
+	/* unvisited link */
+a:link {
+  color: blue;
+}
 
+/* visited link */
+a:visited {
+  color: green;
+}
 
+/* mouse over link */
+a:hover {
+  color: purple;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
 </style>
 <body>
 <button id="SIGNIN" type="button" onclick="signin()">Sign In</button>
